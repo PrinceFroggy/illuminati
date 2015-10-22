@@ -1,0 +1,10 @@
+C:\Users\Andrew\Documents\Visual Studio 2010\Projects\illuminati\illuminati\bin\Release\illuminati.exe
+C:\Users\Andrew\Documents\Visual Studio 2010\Projects\illuminati\illuminati\bin\Release\illuminati.pdb
+C:\Users\Andrew\Documents\Visual Studio 2010\Projects\illuminati\illuminati\bin\Release\WebCam_Capture.dll
+C:\Users\Andrew\Documents\Visual Studio 2010\Projects\illuminati\illuminati\obj\x86\Release\illuminati.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Visual Studio 2010\Projects\illuminati\illuminati\obj\x86\Release\illuminati.Form1.resources
+C:\Users\Andrew\Documents\Visual Studio 2010\Projects\illuminati\illuminati\obj\x86\Release\illuminati.Form2.resources
+C:\Users\Andrew\Documents\Visual Studio 2010\Projects\illuminati\illuminati\obj\x86\Release\illuminati.Properties.Resources.resources
+C:\Users\Andrew\Documents\Visual Studio 2010\Projects\illuminati\illuminati\obj\x86\Release\illuminati.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\Visual Studio 2010\Projects\illuminati\illuminati\obj\x86\Release\illuminati.exe
+C:\Users\Andrew\Documents\Visual Studio 2010\Projects\illuminati\illuminati\obj\x86\Release\illuminati.pdb

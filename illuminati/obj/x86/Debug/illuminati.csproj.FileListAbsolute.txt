@@ -1,0 +1,9 @@
+c:\users\andrew\documents\visual studio 2010\Projects\illuminati\illuminati\bin\Debug\illuminati.exe
+c:\users\andrew\documents\visual studio 2010\Projects\illuminati\illuminati\bin\Debug\illuminati.pdb
+c:\users\andrew\documents\visual studio 2010\Projects\illuminati\illuminati\obj\x86\Debug\illuminati.Form1.resources
+c:\users\andrew\documents\visual studio 2010\Projects\illuminati\illuminati\obj\x86\Debug\illuminati.Form2.resources
+c:\users\andrew\documents\visual studio 2010\Projects\illuminati\illuminati\obj\x86\Debug\illuminati.Properties.Resources.resources
+c:\users\andrew\documents\visual studio 2010\Projects\illuminati\illuminati\obj\x86\Debug\illuminati.csproj.GenerateResource.Cache
+c:\users\andrew\documents\visual studio 2010\Projects\illuminati\illuminati\obj\x86\Debug\illuminati.exe
+c:\users\andrew\documents\visual studio 2010\Projects\illuminati\illuminati\obj\x86\Debug\illuminati.pdb
+c:\users\andrew\documents\visual studio 2010\Projects\illuminati\illuminati\bin\Debug\WebCam_Capture.dll
