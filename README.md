@@ -5,3 +5,4 @@
 
 Credits: Andrew Justin Solesa (https://github.com/Shrooms)
 
+Credits: Pongsakorn Poosankam (???) : WebCam class
