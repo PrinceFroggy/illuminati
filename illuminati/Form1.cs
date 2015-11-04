@@ -30,7 +30,10 @@ namespace illuminati
 
             form2 = new Form2(this);
             form2.Visible = true;
+        }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
             webcam = new CSHARPWEBCAM.WebCam();
             webcam.InitializeWebCam(ref pictureBox1);
 
