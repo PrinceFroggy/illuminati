@@ -9,12 +9,41 @@ namespace illuminati
 {
     static class Program
     {
+        public class MyFilter : IMessageFilter
+        {
+
+            public static bool SuppressKeys = false;
+
+            private const int WM_KEYDOWN = 0x0100;
+            private const int WM_KEYUP = 0x0101;
+
+            public bool PreFilterMessage(ref Message m)
+            {
+                switch (m.Msg)
+                {
+                    case WM_KEYDOWN:
+                    case WM_KEYUP:
+                        if (MyFilter.SuppressKeys)
+                            return true;
+                        break;
+
+                    default:
+                        break;
+                }
+                return false;
+            }
+
+        }
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
         {
+            Application.AddMessageFilter(new MyFilter());
+            MyFilter.SuppressKeys = !MyFilter.SuppressKeys;
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             AppDomain.CurrentDomain.AssemblyResolve += OnResolveAssembly;

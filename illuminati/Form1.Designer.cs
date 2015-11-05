@@ -55,7 +55,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Opacity = 0.86D;
-            this.ShowInTaskbar = false;
+            this.ShowIcon = false;
             this.Text = "illuminati";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);

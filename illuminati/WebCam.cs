@@ -24,7 +24,17 @@ namespace CSHARPWEBCAM
 
         void webcam_ImageCaptured(object source, WebcamEventArgs e)
         {
-            _FrameImage.Image = e.WebCamImage;
+            try
+            {
+                _FrameImage.Image = e.WebCamImage;
+            }
+            catch (Exception) 
+            {
+                webcam.Stop();
+
+                webcam.TimeToCapture_milliseconds = FrameNumber;
+                webcam.Start(0);
+            }
         }
 
         public void Start()
