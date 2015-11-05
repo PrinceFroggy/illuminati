@@ -24,6 +24,13 @@ namespace illuminati
 
         CSHARPWEBCAM.WebCam webcam;
 
+        protected override void WndProc(ref Message m)
+        {
+            // Change WM_LBUTTONDBLCLK to WM_LBUTTONCLICK
+            if (m.Msg == 0x203) m.Msg = 0x201;
+            base.WndProc(ref m);
+        }
+
         public Form1()
         {
             InitializeComponent();
