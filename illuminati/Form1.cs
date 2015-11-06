@@ -66,5 +66,12 @@ namespace illuminati
             webcam.AdvanceSetting();
             pictureBox1.Focus();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            webcam.InitializeWebCam(ref pictureBox1);
+
+            webcam.Start();
+        }
     }
 }
